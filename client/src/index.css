@@ -2,8 +2,10 @@
     --primary-color: #fff;
     --secondary-color: #D4DAF1;
     --tertiary-color: #000;
+    --animation-effect: 0.3s ease-in-out;
 }
 
 body{
     margin: 0;
+    height: 100vh;
 }

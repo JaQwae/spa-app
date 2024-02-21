@@ -1,1 +1,19 @@
+#root{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
+.form-btn{
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    letter-spacing: 0.1em;
+    padding: 0.2em;
+    font-weight: 600;
+}
+
+.form-btn:hover {
+    background-color: var(--secondary-color);
+    scale: 1.05;
+    transition: var(--animation-effect);
+}
