@@ -1,11 +1,12 @@
-import './App.css'
+import PageHeader from './components/PageHeader/PageHeader';
+import './App.css';
 
 function App() {
 
   return (
     <>
       <div>
-        <h1>Hello</h1>
+        <PageHeader/>
       </div>
     </>
   )
