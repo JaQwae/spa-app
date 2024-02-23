@@ -1,5 +1,5 @@
 import PageHeader from './components/PageHeader/PageHeader';
-import Login from './components/Pages/Login/Login';
+import NavBar from './components/NavBar/Navbar';
 import './App.css';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   return (
     <>
         <PageHeader/>
-        <Login/>
+        <NavBar/>
     </>
   )
 }
